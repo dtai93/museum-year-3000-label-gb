@@ -2,7 +2,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const text = "Bread-bag clip, the key to a loaf's plastic cell. The lock remains missing.";
+const text = "Bread-bag clip: key to a loaf's plastic cell. No lock was found.";
 
 if ([...text].length < 1 || [...text].length > 200 || !text.trim()) {
   throw new Error("Entry must contain 1-200 non-whitespace characters.");
